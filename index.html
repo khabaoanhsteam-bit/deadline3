@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Timetable</title>
+ 
+</head>
+<body>
+  <h1>Example: Student Timetable</h1>
+  <table border = "1" width = "100%" cellpadding = "10">
+    <caption><b>Student Timetable – Semester 1</b></caption>
+
+    <thead>
+      <tr>
+        <th bgcolor = "#C0C0C0">Period</th>
+        <th bgcolor = "#C0C0C0">Monday</th>
+        <th bgcolor = "#C0C0C0">Tuesday</th>
+        <th bgcolor = "#C0C0C0">Wednesday</th>
+        <th bgcolor = "#C0C0C0">Thursday</th>
+        <th bgcolor = "#C0C0C0">Friday</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><b>Period 1</b></td>
+        <td>Math</td>
+        <td rowspan = "2" align = "center">Programming</td>
+        <td>English</td>
+        <td>Web Design</td>
+        <td>Math</td>
+      </tr>
+
+      <tr>
+        <td><b>Period 2</b></td>
+        <td>History</td>
+        <td>Science</td>
+        <td>English</td>
+        <td>PE</td>
+      </tr>
+
+      <tr>
+        <td colspan = "6" bgcolor = "#D3D3D3" align = "center"><b>Lunch Break</b></td>
+      </tr>
+
+      <tr>
+        <td><b>Period 3</b></td>
+        <td colspan = "2" align = "center">Project Work</td>
+        <td>Math</td>
+        <td>Programming</td>
+        <td>Free</td>
+      </tr>
+
+      <tr>
+        <td><b>Period 4</b></td>
+        <td>English</td>
+        <td>History</td>
+        <td rowspan = "2" align = "center">Science Lab</td>
+        <td>Web Design</td>
+        <td>Math</td>
+      </tr>
+
+      <tr>
+        <td><b>Period 5</b></td>
+        <td>PE</td>
+        <td>Math</td>
+        <td>English</td>
+        <td>Programming</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan = "6" bgcolor = "#D3D3D3" align = "center">Note: This timetable is subject to change.</td>
+      </tr>
+    </tfoot>  
+    
+  </table>
+</body>
+</html>
